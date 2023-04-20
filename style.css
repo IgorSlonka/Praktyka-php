@@ -1,0 +1,13 @@
+.radius-1r{
+    border-radius: 1rem !important;
+}
+
+.form-control:focus{
+    box-shadow:0 0 8px white !important;
+    border-color: white !important;
+}
+
+.label-nobg::after
+{
+    background: none !important;
+}
