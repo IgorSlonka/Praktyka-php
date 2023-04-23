@@ -24,16 +24,18 @@
                             <div class="card-text px-3">
                                 <form method="post">
                                     <div class="form-floating my-4">
-                                        <input type="text" class="form-control bg-dark text-white" id="floatingInput" name="login" placeholder="login">
+                                        <input type="text" class="form-control bg-dark text-white" id="floatingInput"
+                                            name="login" placeholder="login" autofocus>
                                         <label class="text-white label-nobg" for="floatingInput">Login</label>
                                     </div>
                                     <div class="form-floating my-4">
-                                        <input type="password" class="form-control bg-dark text-white" id="floatingPassword" name="haslo" placeholder="password">
+                                        <input type="password" class="form-control bg-dark text-white"
+                                            id="floatingPassword" name="haslo" placeholder="password">
                                         <label class="text-white label-nobg" for="floatingPassword">Hasło</label>
                                     </div>
-                                    <button class="btn btn-dark border-white border-1 my-3" type="submit">Zaloguj</button>
-                                </form>
-
+                                    <button class="btn btn-dark border-white border-1 my-3"
+                                        type="submit">Zaloguj</button>
+                                </form> 
                             </div>
                         </div>
                     </div>
