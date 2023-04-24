@@ -16,7 +16,7 @@
         <div class="container h-100 py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-5">
-                    <div class="card bg-dark text-light radius-1r">
+                    <div class="card bg-dark text-light">
                         <div class="card-body pt-3 text-center">
                             <h3 class="card-title fw-bolder my-4">Logowanie</h3>
                             <h6 class="card-subtitle my-4">Podaj login i haslo</h6>
