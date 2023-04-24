@@ -12,15 +12,14 @@
 </head>
 
 <body>
-    <section class="vh-100 bg-black bg-gradient">
+    <section class="vh-100 bg-primary bg-gradient">
         <div class="container h-100 py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
                 <div class="col-5">
-                    <div class="card bg-success text-dark radius-1r">
-                        <div class="card-header fw-semibold h4 radius-1r shadow">Panel Administracyjny</div>
+                    <div class="card bg-dark text-light radius-1r">
                         <div class="card-body pt-3 text-center">
-                            <h3 class="card-title fw-bolder my-3">Logowanie</h3>
-                            <h6 class="card-subtitle my-3">Podaj login i haslo</h6>
+                            <h3 class="card-title fw-bolder my-4">Logowanie</h3>
+                            <h6 class="card-subtitle my-4">Podaj login i haslo</h6>
                             <div class="card-text px-3">
                                 <form method="post">
                                     <div class="form-floating my-4">
@@ -33,10 +32,13 @@
                                             id="floatingPassword" name="haslo" placeholder="password">
                                         <label class="text-white label-nobg" for="floatingPassword">Hasło</label>
                                     </div>
-                                    <button class="btn btn-dark border-white border-1 my-3"
+                                    <button class="btn btn-dark border-white border-1 my-4 mx-3"
                                         type="submit">Zaloguj</button>
-                                </form> 
+                                </form>
                             </div>
+                        </div>
+                        <div class='card-footer text-center'>
+                            <small class=''>Nie masz konta? | <a href="rejestracja.php">Kliknij by sie zarejestrowac</a></small>
                         </div>
                     </div>
                 </div>
