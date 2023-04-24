@@ -7,3 +7,7 @@
 {
     background: none !important;
 }
+
+.row >.form-floating > label{
+    left: 5% !important;
+}

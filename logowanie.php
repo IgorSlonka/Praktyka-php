@@ -15,7 +15,7 @@
     <section class="vh-100 bg-primary bg-gradient">
         <div class="container h-100 py-5">
             <div class="row d-flex justify-content-center align-items-center h-100">
-                <div class="col-5">
+                <div class="col-4">
                     <div class="card bg-dark text-light">
                         <div class="card-body pt-3 text-center">
                             <h3 class="card-title fw-bolder my-4">Logowanie</h3>
@@ -38,7 +38,9 @@
                             </div>
                         </div>
                         <div class='card-footer text-center'>
-                            <small class=''>Nie masz konta? | <a href="rejestracja.php">Kliknij by sie zarejestrowac</a></small>
+                            <span>Nie masz konta? |
+                                <a class="btn btn-dark btn-sm border-white border-1" href='rejestracja.php'>Rejestracja</a>
+                            </span>
                         </div>
                     </div>
                 </div>
