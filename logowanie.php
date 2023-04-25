@@ -19,13 +19,13 @@
                     <div class="card bg-dark text-light">
                         <div class="card-body pt-3 text-center">
                             <h3 class="card-title fw-bolder my-4">Logowanie</h3>
-                            <h6 class="card-subtitle my-4">Podaj login i haslo</h6>
+                            <h6 class="card-subtitle my-4">Podaj mail i haslo</h6>
                             <div class="card-text px-3">
                                 <form method="post">
                                     <div class="form-floating my-4">
-                                        <input type="text" class="form-control bg-dark text-white" id="floatingInput"
-                                            name="login" placeholder="login" autofocus>
-                                        <label class="text-white label-nobg" for="floatingInput">Login</label>
+                                        <input type="email" class="form-control bg-dark text-white" id="floatingInput"
+                                            name="mail" placeholder="mail" autofocus>
+                                        <label class="text-white label-nobg" for="floatingInput">Email</label>
                                     </div>
                                     <div class="form-floating my-4">
                                         <input type="password" class="form-control bg-dark text-white"

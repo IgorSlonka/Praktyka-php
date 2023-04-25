@@ -11,3 +11,7 @@
 .row >.form-floating > label{
     left: 5% !important;
 }
+
+.spaced{
+    letter-spacing: 3px;
+}
