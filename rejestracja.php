@@ -21,7 +21,7 @@
                             <h3 class="card-title fw-bolder my-3">Rejestracja</h3>
                             <h6 class="card-subtitle my-3">Podaj wymagane dane</h6>
                             <div class="card-text px-3">
-                                <form method="post">
+                                <form action='includes/signup.inc.php' method="post">
                                     <div class="row col my-4">
                                         <div class="form-floating col">
                                             <input type="text" class="form-control bg-dark text-white"
