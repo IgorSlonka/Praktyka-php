@@ -1,5 +1,5 @@
 <?php
-class SignupCtrl extends Register{
+class SignupCtrl extends Signup{
     private $name;
     private $surname;
     private $mail;
@@ -15,28 +15,28 @@ class SignupCtrl extends Register{
         $this->tel = $tel;
     }
 
-    public fuction SignupUser(){
-        if(ErrEmpty() == false){
-            header("location: ../rejestracja.php?error=emptyinput");
-            exit();
-        }
-        if(ErrMail() == false){
-            header("location: ../rejestracja.php?error=invalidmail");
-            exit();
-        }
-        if(ErrPwd() == false){
-            header("location: ../rejestracja.php?error=invalidpwd");
-            exit();
-        }
-        if(Errtel() == false){
-            header("location: ../rejestracja.php?error=invalidtel");
-            exit();
-        }
-        if(ExistUser() == false){
-            header("location: ../rejestracja.php?error=userexist");
-            exit();
-        }
-        $this-> AddUser($this-> name, $this-> surname, $this-> mail, $this-> pwd, $this-> tel);
+    public function SignupUser(){
+        //     if(ErrEmpty() == false){
+        //     header("location: ../rejestracja.php?error=emptyinput");
+        //     exit();
+        // }
+        // if(ErrMail() == false){
+        //     header("location: ../rejestracja.php?error=invalidmail");
+        //     exit();
+        // }
+        // if(ErrPwd() == false){
+        //     header("location: ../rejestracja.php?error=invalidpwd");
+        //     exit();
+        // }
+        // if(Errtel() == false){
+        //     header("location: ../rejestracja.php?error=invalidtel");
+        //     exit();
+        // }
+        // if(ExistUser() == false){
+        //     header("location: ../rejestracja.php?error=userexist");
+        //     exit();
+        // }
+        $this-> AddUser($this->name, $this->surname, $this->mail, $this->pwd, $this->tel);
     }
 
     private function ErrEmpty(){
@@ -47,6 +47,7 @@ class SignupCtrl extends Register{
             $result = true;
         }
         return $result;
+        return true;
     }
 
     private function ErrMail(){
@@ -60,7 +61,7 @@ class SignupCtrl extends Register{
     }
 
     private function ErrPwd(){
-        $result;Register
+        $result;
         if (!preg_match("/^[a-zA-Z0-9]*$/", $this->pwd)) {
             $result = false;
         } else {
@@ -91,4 +92,4 @@ class SignupCtrl extends Register{
     }
 
 }
-
+?>

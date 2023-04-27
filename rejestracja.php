@@ -49,7 +49,7 @@
                                         <label class="text-white label-nobg" for="floatingPassword">Hasło</label>
                                     </div>
                                     <button class="btn btn-dark border-white border-1 spaced px-5 text-uppercase my-2"
-                                        type="submit">Zarejestruj</button>
+                                        type="submit" name="submit">Zarejestruj</button>
                                 </form>
                             </div>
                         </div>
